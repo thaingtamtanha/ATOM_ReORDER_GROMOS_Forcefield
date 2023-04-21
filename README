@@ -1,0 +1,11 @@
+# GROMOS_AUTOMATIC_REORDER 
+#### This script is part of the project "GROMOS_MD"
+#### Copyright (c) 2023, Thanawat Thaingtamtanha
+#### Theoretical chemistry group, University of Siegen, Germany
+#### All rights reserved.
+The program needs your "lig.gro" and "lig.itp". It will read your "lig.itp" and rearrange the order of atom in "lig.grp" respect to the order of atom in "[ atoms ]" section in "lig.itp".
+After use the notebook, you will get new "lig_reordered.gro". Copy the new atom order in this file and paste in "solv.gro".
+
+To run the code:
+
+$ python reorder_lig_gro.py <lig.itp> <lig.gro> <out.gro>
