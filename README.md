@@ -8,8 +8,11 @@ This Python script is designed to help with Molecular Dynamics (MD) simulations 
 #### Copyright (c) 2023, Thanawat Thaingtamtanha
 #### Theoretical chemistry group, University of Siegen, Germany
 #### All rights reserved.
-The program needs your "lig.gro" and "lig.itp". It will read your "lig.itp" and rearrange the order of atom in "lig.grp" respect to the order of atom in "[ atoms ]" section in "lig.itp".
-After use the notebook, you will get new "lig_reordered.gro". Copy the new atom order in this file and paste in "solv.gro".
+The program needs your 
+- "lig.gro" : From yout protein-ligand complex file.
+- "lig.itp" : From https://atb.uq.edu.au/, by upload SMILES or pdb of your ligand pdb.
+It will read your "lig.itp" and rearrange the order of atom in "lig.gro" respect to the order of atom in "[ atoms ]" section in "lig.itp".
+After use the python script, you will get new "lig_reordered.gro". Copy the new atom order in this file and paste in "solv.gro".
 
 To run the code:
 
