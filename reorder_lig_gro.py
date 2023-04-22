@@ -59,3 +59,6 @@ if __name__ == '__main__':
         sys.exit(1)
 
     print(f'Reordered "lig.gro" written to "{out_path}"')
+    print(f'This script was developed by Thanawat Thaingtamtanha')
+    print(f'From Theoretical chemistry group, University of Siegen, Germany')
+    print(f'Why dont joy us for Table tennis?')
