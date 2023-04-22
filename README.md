@@ -13,6 +13,7 @@ The program requires the following files:
 
 "lig.gro": This is your protein-ligand complex file.
 "lig.itp": This file can be obtained from https://atb.uq.edu.au/ by uploading the SMILES or PDB file of your ligand.
+
 The program will read your "lig.itp" file and rearrange the order of atoms in "lig.gro" to match the order of atoms in the "[atoms]" section of "lig.itp". After running the Python script, you will obtain a new file called "lig_reordered.gro". Copy the new atom order from this file and paste it into "solv.gro".
 To run the code, use the following command:
 
